@@ -1,38 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|c:\\users\\user\\desktop\\ictawebsiteapi\\business\\concrete\\newsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|solutionrelative:business\\concrete\\newsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AB867FB-AD23-4AB6-BFA5-39EA9035C196}|Core\\Core.csproj|c:\\users\\user\\desktop\\ictawebsiteapi\\core\\utilities\\filters\\setauthorfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AB867FB-AD23-4AB6-BFA5-39EA9035C196}|Core\\Core.csproj|solutionrelative:core\\utilities\\filters\\setauthorfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3548B28-9A7C-4F8A-A047-272CAC4E3826}|ICTAWebsiteAPI\\ICTAWebsiteAPI.csproj|c:\\users\\user\\desktop\\ictawebsiteapi\\ictawebsiteapi\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3548B28-9A7C-4F8A-A047-272CAC4E3826}|ICTAWebsiteAPI\\ICTAWebsiteAPI.csproj|solutionrelative:ictawebsiteapi\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3548B28-9A7C-4F8A-A047-272CAC4E3826}|ICTAWebsiteAPI\\ICTAWebsiteAPI.csproj|c:\\users\\user\\desktop\\ictawebsiteapi\\ictawebsiteapi\\controllers\\regulationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3548B28-9A7C-4F8A-A047-272CAC4E3826}|ICTAWebsiteAPI\\ICTAWebsiteAPI.csproj|solutionrelative:ictawebsiteapi\\controllers\\regulationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F04A0056-8D02-4E55-9067-F80F34B21DFA}|DTOs\\DTOs.csproj|c:\\users\\user\\desktop\\ictawebsiteapi\\dtos\\concrete\\novelty\\noveltyadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F04A0056-8D02-4E55-9067-F80F34B21DFA}|DTOs\\DTOs.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\dtos\\concrete\\novelty\\noveltyadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F04A0056-8D02-4E55-9067-F80F34B21DFA}|DTOs\\DTOs.csproj|solutionrelative:dtos\\concrete\\novelty\\noveltyadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|c:\\users\\user\\desktop\\ictawebsiteapi\\business\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|solutionrelative:business\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\business\\concrete\\newsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|solutionrelative:business\\concrete\\newsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|c:\\users\\user\\desktop\\ictawebsiteapi\\business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|solutionrelative:business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\business\\concrete\\teammembermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|solutionrelative:business\\concrete\\teammembermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|c:\\users\\user\\desktop\\ictawebsiteapi\\business\\concrete\\footermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|solutionrelative:business\\concrete\\footermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3548B28-9A7C-4F8A-A047-272CAC4E3826}|ICTAWebsiteAPI\\ICTAWebsiteAPI.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\ictawebsiteapi\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3548B28-9A7C-4F8A-A047-272CAC4E3826}|ICTAWebsiteAPI\\ICTAWebsiteAPI.csproj|solutionrelative:ictawebsiteapi\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,104 +26,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SetAuthorFilter.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\Core\\Utilities\\Filters\\SetAuthorFilter.cs",
-              "RelativeDocumentMoniker": "Core\\Utilities\\Filters\\SetAuthorFilter.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\Core\\Utilities\\Filters\\SetAuthorFilter.cs",
-              "RelativeToolTip": "Core\\Utilities\\Filters\\SetAuthorFilter.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAwwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T12:16:41.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegulationsController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\ICTAWebsiteAPI\\Controllers\\RegulationsController.cs",
-              "RelativeDocumentMoniker": "ICTAWebsiteAPI\\Controllers\\RegulationsController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\ICTAWebsiteAPI\\Controllers\\RegulationsController.cs",
-              "RelativeToolTip": "ICTAWebsiteAPI\\Controllers\\RegulationsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T12:03:28.685Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "NewsController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\ICTAWebsiteAPI\\Controllers\\NewsController.cs",
-              "RelativeDocumentMoniker": "ICTAWebsiteAPI\\Controllers\\NewsController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\ICTAWebsiteAPI\\Controllers\\NewsController.cs",
-              "RelativeToolTip": "ICTAWebsiteAPI\\Controllers\\NewsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAvAAAA",
+              "Title": "TeamMemberManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Business\\Concrete\\TeamMemberManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\TeamMemberManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Business\\Concrete\\TeamMemberManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\TeamMemberManager.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T12:03:24.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NoveltyAddDTO.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\DTOs\\Concrete\\Novelty\\NoveltyAddDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\Concrete\\Novelty\\NoveltyAddDTO.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\DTOs\\Concrete\\Novelty\\NoveltyAddDTO.cs",
-              "RelativeToolTip": "DTOs\\Concrete\\Novelty\\NoveltyAddDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T11:24:17.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\Business\\Mapper\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Business\\Mapper\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\Business\\Mapper\\MappingProfile.cs",
-              "RelativeToolTip": "Business\\Mapper\\MappingProfile.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T11:51:49.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthManager.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\Business\\Concrete\\AuthManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\AuthManager.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\Business\\Concrete\\AuthManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\AuthManager.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAgwGQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T11:30:19.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NewsManager.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\Business\\Concrete\\NewsManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\NewsManager.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\Business\\Concrete\\NewsManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\NewsManager.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T11:26:42.276Z",
+              "WhenOpened": "2025-10-23T08:06:05.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FooterManager.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\Business\\Concrete\\FooterManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\FooterManager.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ICTAWebsiteAPI\\Business\\Concrete\\FooterManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\FooterManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\ICTAWebsiteAPI\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "ICTAWebsiteAPI\\Controllers\\NewsController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\ICTAWebsiteAPI\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "ICTAWebsiteAPI\\Controllers\\NewsController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAcwFgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T11:30:17.018Z"
+              "WhenOpened": "2025-10-23T07:15:04.025Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NoveltyAddDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\DTOs\\Concrete\\Novelty\\NoveltyAddDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Concrete\\Novelty\\NoveltyAddDTO.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\DTOs\\Concrete\\Novelty\\NoveltyAddDTO.cs",
+              "RelativeToolTip": "DTOs\\Concrete\\Novelty\\NoveltyAddDTO.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwBkAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:07:32.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewsManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Business\\Concrete\\NewsManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\NewsManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Business\\Concrete\\NewsManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\NewsManager.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAwwBoAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:26:42.276Z",
+              "EditorCaption": ""
             }
           ]
         }

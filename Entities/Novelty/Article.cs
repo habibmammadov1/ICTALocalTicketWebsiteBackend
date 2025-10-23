@@ -12,8 +12,8 @@ namespace Entities.Novelty
     public class Article : BaseNovelty, IEntity
     {
         public Article() { }
-        public Article(int id, string title, string content, string[]? photoURLs, string[]? fileURLs, int authorId, DateTime lastUpdateDate, DateTime createDate, int viewCount, int likeCount, int dislikeCount, int status)
-            : base(id, title, content, photoURLs, fileURLs, authorId, lastUpdateDate, createDate, viewCount, likeCount, dislikeCount, status)
+
+        public Article(int id, string title, string content, string coverPhotoURL, int authorId, int viewCount, int likeCount, int dislikeCount, int status) : base(id, title, content, coverPhotoURL, authorId, viewCount, likeCount, dislikeCount, status)
         {
         }
     }

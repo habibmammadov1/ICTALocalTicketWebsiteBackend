@@ -35,6 +35,9 @@ namespace Business.Mapper
                 .ForMember(dest => dest.Id, opt => opt.Ignore())
                 .ForMember(dest => dest.Status, opt => opt.Ignore());
             CreateMap<News, NoveltyAddDTO>();
+
+            CreateMap<NoveltyUpdateDTO, News>();
+            CreateMap<News, NoveltyUpdateDTO>();
         }
     }
 }

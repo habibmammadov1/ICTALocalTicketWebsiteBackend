@@ -15,5 +15,6 @@ namespace Business.Abstract
         Task<IDataResult<News>> GetByIdAsync(int id);
         Task<IDataResult<NoveltyAddDTO>> AddAsync(NoveltyAddDTO noveltyAddDTO);
         Task<IResult> RemoveAsync(int id);
+        Task<IDataResult<NoveltyUpdateDTO>> UpdateAsync(NoveltyUpdateDTO noveltyUpdateDTO);
     }
 }

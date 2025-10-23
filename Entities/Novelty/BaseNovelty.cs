@@ -18,36 +18,39 @@ namespace Entities.Novelty
         public string Title { get; set; }
         [Column("CONTENT", TypeName = "nvarchar(max)")]
         public string Content { get; set; }
-        [NotMapped]
-        public string[]? PhotoURLs { get; set; }
+        [Column("COVER_PHOTO_URL", TypeName = "nvarchar(max)")]
+        public string CoverPhotoURL { get; set; }
         [NotMapped]
         public string[]? FileURLs { get; set; }
         [Column("AUTHOR_ID")]
         public int AuthorId { get; set; }
-        [Column("LAST_UPDATE_DATE")]
-        public DateTime LastUpdateDate { get; set; } = DateTime.Now;
-        [Column("CREATE_DATE")]
-        public DateTime CreateDate { get; set; } = DateTime.Now;
         [Column("VIEW_COUNT")]
         public int ViewCount { get; set; }
         [Column("LIKE_COUNT")]
         public int LikeCount { get; set; }
         [Column("DISLIKE_COUNT")]
         public int DislikeCount { get; set; }
-        public int Status { get; set; } = 1; // Status of active
+        private int _status = 1;
+        public int Status // Status of active
+        {
+            get => _status;
+            set
+            {
+                if (value != 0 && value != 1)
+                    throw new ArgumentException("Status must be either 0 or 1.");
+                _status = value;
+            }
+        }
 
         public BaseNovelty() { }
 
-        public BaseNovelty(int id, string title, string content, string[]? photoURLs, string[]? fileURLs, int authorId, DateTime lastUpdateDate, DateTime createDate, int viewCount, int likeCount, int dislikeCount, int status)
+        public BaseNovelty(int id, string title, string content, string coverPhotoURL, int authorId, int viewCount, int likeCount, int dislikeCount, int status)
         {
             Id = id;
             Title = title;
             Content = content;
-            PhotoURLs = photoURLs;
-            FileURLs = fileURLs;
+            CoverPhotoURL = coverPhotoURL;
             AuthorId = authorId;
-            LastUpdateDate = lastUpdateDate;
-            CreateDate = createDate;
             ViewCount = viewCount;
             LikeCount = likeCount;
             DislikeCount = dislikeCount;

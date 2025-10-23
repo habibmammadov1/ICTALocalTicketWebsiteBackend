@@ -15,18 +15,19 @@ namespace DTOs.Concrete.Novelty
     {
         public string Title { get; set; }
         public string Content { get; set; }
-        public IFormFile[]? Photos { get; set; }
+        public IFormFile CoverPhoto { get; set; }
+        //public IFormFile[]? Photos { get; set; }
         public IFormFile[]? Files { get; set; }
         [BindNever]
         public int AuthorId { get; set; }
 
         public NoveltyAddDTO() { }
 
-        public NoveltyAddDTO(string title, string content, IFormFile[]? photos, IFormFile[]? files, int authorId)
+        public NoveltyAddDTO(string title, string content, IFormFile coverPhoto, IFormFile[]? files, int authorId)
         {
             Title = title;
             Content = content;
-            Photos = photos;
+            CoverPhoto = coverPhoto;
             Files = files;
             AuthorId = authorId;
         }

@@ -2,6 +2,7 @@
 using Business.Abstract;
 using Core.Utilities.Results;
 using Data.Abstract;
+using DTOs.Concrete;
 using DTOs.Concrete.Novelty;
 using Entities.Novelty;
 using System;
@@ -25,6 +26,17 @@ namespace Business.Concrete
 
         public async Task<IDataResult<NoveltyAddDTO>> AddAsync(NoveltyAddDTO noveltyAddDTO)
         {
+            if (noveltyAddDTO == null)
+            {
+                return new ErrorDataResult<NoveltyAddDTO>("Məlumat tapılmadı.");
+            }
+
+            string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "news");
+            if (!Directory.Exists(uploadsFolder))
+                Directory.CreateDirectory(uploadsFolder);
+
+            string? photoPath = null;
+
             await _newDal.AddAsync(_mapper.Map<News>(noveltyAddDTO));
             return new SuccessDataResult<NoveltyAddDTO>(noveltyAddDTO);
         }
@@ -36,12 +48,34 @@ namespace Business.Concrete
 
         public async Task<IDataResult<News>> GetByIdAsync(int id)
         {
-            return new SuccessDataResult<News>(await _newDal.GetAsync(n => n.Id == id));
+            News news =  await _newDal.GetAsync(n => n.Id == id);
+
+            if (news == null)
+                return new ErrorDataResult<News>("News not found");
+
+            return new SuccessDataResult<News>(news);
         }
 
-        public Task<IResult> RemoveAsync(int id)
+        public async Task<IResult> RemoveAsync(int id)
         {
-            throw new NotImplementedException();
+            var entityForDelete = await GetByIdAsync(id);
+
+            if (entityForDelete.Data == null)
+                return new ErrorResult("News not found");
+
+            await _newDal.RemoveAsync(entityForDelete.Data);
+            return new SuccessResult("Deleted successfully");
+        }
+
+        public async Task<IDataResult<NoveltyUpdateDTO>> UpdateAsync(NoveltyUpdateDTO noveltyUpdateDTO)
+        {
+            if(noveltyUpdateDTO == null)
+                throw new ArgumentNullException(nameof(noveltyUpdateDTO));
+
+            News entityToUpdate = _mapper.Map<News>(noveltyUpdateDTO);
+            await _newDal.UpdateAsync(entityToUpdate);
+            return new SuccessDataResult<NoveltyUpdateDTO>(noveltyUpdateDTO);
+
         }
     }
 }

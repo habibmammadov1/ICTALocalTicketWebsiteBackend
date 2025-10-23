@@ -148,17 +148,14 @@ namespace Data.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("CONTENT");
 
-                    b.Property<DateTime>("CreateDate")
-                        .HasColumnType("datetime2")
-                        .HasColumnName("CREATE_DATE");
+                    b.Property<string>("CoverPhotoURL")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("COVER_PHOTO_URL");
 
                     b.Property<int>("DislikeCount")
                         .HasColumnType("int")
                         .HasColumnName("DISLIKE_COUNT");
-
-                    b.Property<DateTime>("LastUpdateDate")
-                        .HasColumnType("datetime2")
-                        .HasColumnName("LAST_UPDATE_DATE");
 
                     b.Property<int>("LikeCount")
                         .HasColumnType("int")
@@ -176,10 +173,6 @@ namespace Data.Migrations
                     b.Property<int>("ViewCount")
                         .HasColumnType("int")
                         .HasColumnName("VIEW_COUNT");
-
-                    b.Property<int>("WhoDeletedId")
-                        .HasColumnType("int")
-                        .HasColumnName("WHO_DELETED_ID");
 
                     b.HasKey("Id");
 
@@ -204,17 +197,14 @@ namespace Data.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("CONTENT");
 
-                    b.Property<DateTime>("CreateDate")
-                        .HasColumnType("datetime2")
-                        .HasColumnName("CREATE_DATE");
+                    b.Property<string>("CoverPhotoURL")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("COVER_PHOTO_URL");
 
                     b.Property<int>("DislikeCount")
                         .HasColumnType("int")
                         .HasColumnName("DISLIKE_COUNT");
-
-                    b.Property<DateTime>("LastUpdateDate")
-                        .HasColumnType("datetime2")
-                        .HasColumnName("LAST_UPDATE_DATE");
 
                     b.Property<int>("LikeCount")
                         .HasColumnType("int")
@@ -232,10 +222,6 @@ namespace Data.Migrations
                     b.Property<int>("ViewCount")
                         .HasColumnType("int")
                         .HasColumnName("VIEW_COUNT");
-
-                    b.Property<int>("WhoDeletedId")
-                        .HasColumnType("int")
-                        .HasColumnName("WHO_DELETED_ID");
 
                     b.HasKey("Id");
 
@@ -260,17 +246,14 @@ namespace Data.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("CONTENT");
 
-                    b.Property<DateTime>("CreateDate")
-                        .HasColumnType("datetime2")
-                        .HasColumnName("CREATE_DATE");
+                    b.Property<string>("CoverPhotoURL")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("COVER_PHOTO_URL");
 
                     b.Property<int>("DislikeCount")
                         .HasColumnType("int")
                         .HasColumnName("DISLIKE_COUNT");
-
-                    b.Property<DateTime>("LastUpdateDate")
-                        .HasColumnType("datetime2")
-                        .HasColumnName("LAST_UPDATE_DATE");
 
                     b.Property<int>("LikeCount")
                         .HasColumnType("int")
@@ -288,10 +271,6 @@ namespace Data.Migrations
                     b.Property<int>("ViewCount")
                         .HasColumnType("int")
                         .HasColumnName("VIEW_COUNT");
-
-                    b.Property<int>("WhoDeletedId")
-                        .HasColumnType("int")
-                        .HasColumnName("WHO_DELETED_ID");
 
                     b.HasKey("Id");
 
