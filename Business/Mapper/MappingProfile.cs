@@ -38,6 +38,10 @@ namespace Business.Mapper
 
             CreateMap<NoveltyUpdateDTO, News>();
             CreateMap<News, NoveltyUpdateDTO>();
+
+            CreateMap<NewsFilesAddDTO, NewsFiles>()
+                .ForMember(dest => dest.Id, opt => opt.Ignore());
+            CreateMap<NewsFiles, NewsFilesAddDTO>();
         }
     }
 }

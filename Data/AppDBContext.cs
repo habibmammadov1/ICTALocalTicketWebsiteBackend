@@ -25,5 +25,6 @@ namespace Data
         public DbSet<News> News { get; set; }
         public DbSet<Article> Articles { get; set; }
         public DbSet<Announcement> Accouncements { get; set; }
+        public DbSet<NewsFiles> NewsFiles { get; set; }
     }
 }

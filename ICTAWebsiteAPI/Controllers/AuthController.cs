@@ -34,6 +34,9 @@ namespace ICTAWebsiteAPI.Controllers
 
             var result = _authService.loginAuth2(loginDTO);
 
+            if(!result.Success)
+                return BadRequest(result.Message);
+
             return Ok(result.Data);
         }
 

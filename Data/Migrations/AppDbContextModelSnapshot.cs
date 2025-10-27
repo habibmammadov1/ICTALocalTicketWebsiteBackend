@@ -277,6 +277,31 @@ namespace Data.Migrations
                     b.ToTable("News");
                 });
 
+            modelBuilder.Entity("Entities.Novelty.NewsFiles", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("ID");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("FilePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("FILE_PATH");
+
+                    b.Property<int>("NewsId")
+                        .HasColumnType("int")
+                        .HasColumnName("NEWS_ID");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NewsId");
+
+                    b.ToTable("NEWS_FILES");
+                });
+
             modelBuilder.Entity("Entities.Regulations", b =>
                 {
                     b.Property<int>("id")
@@ -373,6 +398,22 @@ namespace Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("TeamMembers");
+                });
+
+            modelBuilder.Entity("Entities.Novelty.NewsFiles", b =>
+                {
+                    b.HasOne("Entities.Novelty.News", "News")
+                        .WithMany("NewsFiles")
+                        .HasForeignKey("NewsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("News");
+                });
+
+            modelBuilder.Entity("Entities.Novelty.News", b =>
+                {
+                    b.Navigation("NewsFiles");
                 });
 #pragma warning restore 612, 618
         }

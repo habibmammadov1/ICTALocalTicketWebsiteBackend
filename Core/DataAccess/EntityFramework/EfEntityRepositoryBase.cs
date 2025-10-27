@@ -23,6 +23,18 @@ namespace Core.DataAccess.EntityFramework
             }
         }
 
+        public TEntity AddWithReturn(TEntity entity)
+        {
+            using (TContext context = new TContext())
+            {
+                var addedEntity = context.Entry(entity);
+                addedEntity.State = EntityState.Added;
+                context.SaveChanges();
+            }
+
+            return entity;
+        }
+
         public TEntity Get(Expression<Func<TEntity, bool>> filter)
         {
             using (TContext context = new TContext())
@@ -85,6 +97,18 @@ namespace Core.DataAccess.EntityFramework
                 addedEntity.State = EntityState.Added;
                 await context.SaveChangesAsync();
             }
+        }
+
+        public async Task<TEntity> AddWithReturnAsync(TEntity entity)
+        {
+            using (TContext context = new TContext())
+            {
+                var addedEntity = context.Entry(entity);
+                addedEntity.State = EntityState.Added;
+                await context.SaveChangesAsync();
+            }
+
+            return entity;
         }
 
         public async Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> filter)
@@ -150,6 +174,5 @@ namespace Core.DataAccess.EntityFramework
                 }
             }
         }
-
     }
 }

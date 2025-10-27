@@ -146,6 +146,31 @@ namespace Data.Migrations
                 {
                     table.PrimaryKey("PK_TeamMembers", x => x.ID);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "NEWS_FILES",
+                columns: table => new
+                {
+                    ID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    NEWS_ID = table.Column<int>(type: "int", nullable: false),
+                    FILE_PATH = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_NEWS_FILES", x => x.ID);
+                    table.ForeignKey(
+                        name: "FK_NEWS_FILES_News_NEWS_ID",
+                        column: x => x.NEWS_ID,
+                        principalTable: "News",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_NEWS_FILES_NEWS_ID",
+                table: "NEWS_FILES",
+                column: "NEWS_ID");
         }
 
         /// <inheritdoc />
@@ -164,13 +189,16 @@ namespace Data.Migrations
                 name: "Footer");
 
             migrationBuilder.DropTable(
-                name: "News");
+                name: "NEWS_FILES");
 
             migrationBuilder.DropTable(
                 name: "Regulations");
 
             migrationBuilder.DropTable(
                 name: "TeamMembers");
+
+            migrationBuilder.DropTable(
+                name: "News");
         }
     }
 }

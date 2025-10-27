@@ -46,6 +46,7 @@ namespace Core.Entities.Concrete
 
         [MaxLength(50)]
         [Column("EMAIL")]
+        [EmailAddress]
         public string Email { get; set; }
 
         [MaxLength(100)]

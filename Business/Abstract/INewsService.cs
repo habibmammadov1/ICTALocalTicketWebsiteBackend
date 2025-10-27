@@ -16,5 +16,13 @@ namespace Business.Abstract
         Task<IDataResult<NoveltyAddDTO>> AddAsync(NoveltyAddDTO noveltyAddDTO);
         Task<IResult> RemoveAsync(int id);
         Task<IDataResult<NoveltyUpdateDTO>> UpdateAsync(NoveltyUpdateDTO noveltyUpdateDTO);
+        Task<IResult> ActiveDeactiveAsync(int id, int status);
+
+        /*
+         Like
+         Dislike
+         View Count
+         Active/Deactive
+         */
     }
 }

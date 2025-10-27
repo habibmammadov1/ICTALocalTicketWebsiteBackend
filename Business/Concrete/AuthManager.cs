@@ -67,7 +67,7 @@ namespace Business.Concrete
                 {
                     return new ErrorDataResult<AuthLoginResponseDTO>(_mapper.Map<AuthLoginResponseDTO>(authLoginDTO), "Username and password are required.");
                 }
-                var user = _authDal.Get(u => u.Username == authLoginDTO.Username && u.Status == 1);
+                var user = _authDal.Get(u => u.Username == authLoginDTO.Username);
 
                 if (user == null)
                     return new ErrorDataResult<AuthLoginResponseDTO>(_mapper.Map<AuthLoginResponseDTO>(authLoginDTO), "Username and password are required.");

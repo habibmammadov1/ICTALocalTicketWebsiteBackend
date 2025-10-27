@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F04A0056-8D02-4E55-9067-F80F34B21DFA}|DTOs\\DTOs.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\dtos\\concrete\\novelty\\noveltyadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F04A0056-8D02-4E55-9067-F80F34B21DFA}|DTOs\\DTOs.csproj|solutionrelative:dtos\\concrete\\novelty\\noveltyadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\business\\abstract\\inewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|solutionrelative:business\\abstract\\inewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\business\\concrete\\newsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|solutionrelative:business\\concrete\\newsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\business\\concrete\\teammembermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|solutionrelative:business\\concrete\\teammembermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3548B28-9A7C-4F8A-A047-272CAC4E3826}|ICTAWebsiteAPI\\ICTAWebsiteAPI.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\ictawebsiteapi\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3548B28-9A7C-4F8A-A047-272CAC4E3826}|ICTAWebsiteAPI\\ICTAWebsiteAPI.csproj|solutionrelative:ictawebsiteapi\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93D41D67-98AF-45A7-B9CD-9089FD07D98D}|Entities\\Entities.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\entities\\novelty\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D41D67-98AF-45A7-B9CD-9089FD07D98D}|Entities\\Entities.csproj|solutionrelative:entities\\novelty\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,47 +26,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TeamMemberManager.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Business\\Concrete\\TeamMemberManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\TeamMemberManager.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Business\\Concrete\\TeamMemberManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\TeamMemberManager.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:06:05.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NewsController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\ICTAWebsiteAPI\\Controllers\\NewsController.cs",
-              "RelativeDocumentMoniker": "ICTAWebsiteAPI\\Controllers\\NewsController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\ICTAWebsiteAPI\\Controllers\\NewsController.cs",
-              "RelativeToolTip": "ICTAWebsiteAPI\\Controllers\\NewsController.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAcwFgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T07:15:04.025Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NoveltyAddDTO.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\DTOs\\Concrete\\Novelty\\NoveltyAddDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\Concrete\\Novelty\\NoveltyAddDTO.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\DTOs\\Concrete\\Novelty\\NoveltyAddDTO.cs",
-              "RelativeToolTip": "DTOs\\Concrete\\Novelty\\NoveltyAddDTO.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAQwBkAAABxAAAA",
+              "Title": "INewsService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Business\\Abstract\\INewsService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\INewsService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Business\\Abstract\\INewsService.cs",
+              "RelativeToolTip": "Business\\Abstract\\INewsService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAUwBIAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:07:32.552Z",
+              "WhenOpened": "2025-10-24T08:41:56.993Z",
               "EditorCaption": ""
             },
             {
@@ -81,10 +45,22 @@
               "RelativeDocumentMoniker": "Business\\Concrete\\NewsManager.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Business\\Concrete\\NewsManager.cs",
               "RelativeToolTip": "Business\\Concrete\\NewsManager.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAwwBoAAABMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T11:26:42.276Z",
+              "WhenOpened": "2025-10-24T07:35:01.37Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "News.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Entities\\Novelty\\News.cs",
+              "RelativeDocumentMoniker": "Entities\\Novelty\\News.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Entities\\Novelty\\News.cs",
+              "RelativeToolTip": "Entities\\Novelty\\News.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T07:33:10.021Z"
             }
           ]
         }

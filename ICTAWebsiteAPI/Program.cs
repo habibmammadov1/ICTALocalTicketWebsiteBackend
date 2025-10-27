@@ -51,6 +51,9 @@ builder.Services.AddScoped<ITeamMemberDal, EfTeamMembersDal>();
 builder.Services.AddScoped<INewsService, NewsManager>();
 builder.Services.AddScoped<INewsDal, EfNewsDal>();
 
+builder.Services.AddScoped<INewsFilesService, NewsFileManager>();
+builder.Services.AddScoped<INewsFilesDal, EfNewsFilesDal>();
+
 builder.Services.AddScoped<SetAuthorFilter>();
 
 // Add authorization services
