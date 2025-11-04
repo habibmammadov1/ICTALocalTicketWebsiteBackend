@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Business.Abstract;
 using Business.Concrete;
+using Business.Helpers;
 using Business.Mapper;
 using Core.Utilities.Filters;
 using Data;
@@ -35,6 +36,8 @@ var config = new MapperConfiguration(cfg =>
 
 builder.Services.AddSingleton<IMapper>(config.CreateMapper());
 
+builder.Services.AddHttpContextAccessor();
+
 // Register service with DI container
 builder.Services.AddScoped<IAuthService, AuthManager>();
 builder.Services.AddScoped<IAuthDal, EfAuthDal>();
@@ -48,13 +51,16 @@ builder.Services.AddScoped<IRegulationsDal, EfRegulationsDal>();
 builder.Services.AddScoped<ITeamMemberService, TeamMemberManager>();
 builder.Services.AddScoped<ITeamMemberDal, EfTeamMembersDal>();
 
-builder.Services.AddScoped<INewsService, NewsManager>();
-builder.Services.AddScoped<INewsDal, EfNewsDal>();
+builder.Services.AddScoped<INoveltyService, NoveltyManager>();
+builder.Services.AddScoped<IBaseNoveltyDal, EfBaseNoveltyDal>();
 
-builder.Services.AddScoped<INewsFilesService, NewsFileManager>();
-builder.Services.AddScoped<INewsFilesDal, EfNewsFilesDal>();
+builder.Services.AddScoped<INoveltyFilesService, NoveltyFileManager>();
+builder.Services.AddScoped<INoveltyFilesDal, EfNoveltyFilesDal>();
+
+builder.Services.AddScoped<INoveltyLikeDal, EfNoveltyLikeDal>();
 
 builder.Services.AddScoped<SetAuthorFilter>();
+builder.Services.AddScoped<IUserContextService, UserContextService>();
 
 // Add authorization services
 builder.Services.AddAuthorization();

@@ -4,6 +4,7 @@ using Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251030090850_ICTAWebsiteInitial")]
+    partial class ICTAWebsiteInitial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -153,6 +156,14 @@ namespace Data.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("COVER_PHOTO_URL");
 
+                    b.Property<int>("DislikeCount")
+                        .HasColumnType("int")
+                        .HasColumnName("DISLIKE_COUNT");
+
+                    b.Property<int>("LikeCount")
+                        .HasColumnType("int")
+                        .HasColumnName("LIKE_COUNT");
+
                     b.Property<int>("NoveltyId")
                         .HasColumnType("int")
                         .HasColumnName("NOVELTY_ID");
@@ -173,6 +184,40 @@ namespace Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("NOVELTIES");
+                });
+
+            modelBuilder.Entity("Entities.Novelty.NewsLike", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("ID");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("DislikeStatus")
+                        .HasColumnType("int")
+                        .HasColumnName("DISLIKE_STATUS");
+
+                    b.Property<int>("LikeStatus")
+                        .HasColumnType("int")
+                        .HasColumnName("LIKE_STATUS");
+
+                    b.Property<int>("NewsId")
+                        .HasColumnType("int")
+                        .HasColumnName("NEWS_ID");
+
+                    b.Property<int>("NoveltyId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("WhoLikes")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("WHO_LIKES");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("NOVELTIES_LIKE_DISLIKE");
                 });
 
             modelBuilder.Entity("Entities.Novelty.NoveltyFile", b =>
@@ -198,39 +243,6 @@ namespace Data.Migrations
                     b.HasIndex("NoveltyItemId");
 
                     b.ToTable("NOVELTIES_FILES");
-                });
-
-            modelBuilder.Entity("Entities.Novelty.NoveltyLike", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("ID");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("DislikeStatus")
-                        .HasColumnType("int")
-                        .HasColumnName("DISLIKE_STATUS");
-
-                    b.Property<int>("LikeStatus")
-                        .HasColumnType("int")
-                        .HasColumnName("LIKE_STATUS");
-
-                    b.Property<int>("NoveltyItemId")
-                        .HasColumnType("int")
-                        .HasColumnName("NOVELTY_ITEM_ID");
-
-                    b.Property<string>("WhoLikes")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("WHO_LIKES");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("NoveltyItemId");
-
-                    b.ToTable("NOVELTIES_LIKE_DISLIKE");
                 });
 
             modelBuilder.Entity("Entities.Regulations", b =>
@@ -342,22 +354,9 @@ namespace Data.Migrations
                     b.Navigation("NoveltyItem");
                 });
 
-            modelBuilder.Entity("Entities.Novelty.NoveltyLike", b =>
-                {
-                    b.HasOne("Entities.Novelty.BaseNovelty", "NoveltyItem")
-                        .WithMany("NoveltyLike")
-                        .HasForeignKey("NoveltyItemId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("NoveltyItem");
-                });
-
             modelBuilder.Entity("Entities.Novelty.BaseNovelty", b =>
                 {
                     b.Navigation("NoveltyFiles");
-
-                    b.Navigation("NoveltyLike");
                 });
 #pragma warning restore 612, 618
         }

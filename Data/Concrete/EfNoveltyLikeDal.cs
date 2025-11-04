@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Data.Concrete
 {
-    public class EfNoveltyFilesDal : EfEntityRepositoryBase<NoveltyFile, AppDbContext>, INoveltyFilesDal
+    public class EfNoveltyLikeDal : EfEntityRepositoryBase<NoveltyLike, AppDbContext>, INoveltyLikeDal
     {
     }
 }

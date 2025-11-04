@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entities.Abstract;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,7 +9,8 @@ using System.Threading.Tasks;
 
 namespace Entities.Novelty
 {
-    public class BaseNovelty
+    [Table("NOVELTIES")]
+    public class BaseNovelty : IEntity
     {
         [Key]
         [Column("ID")]
@@ -18,6 +20,8 @@ namespace Entities.Novelty
         public string Title { get; set; }
         [Column("CONTENT", TypeName = "nvarchar(max)")]
         public string Content { get; set; }
+        [Column("NOVELTY_ID")]
+        public int NoveltyId { get; set; } // 1 - News, 2 - Announcements, 3 - Articles
         [Column("COVER_PHOTO_URL", TypeName = "nvarchar(max)")]
         public string CoverPhotoURL { get; set; }
         [NotMapped]
@@ -26,10 +30,6 @@ namespace Entities.Novelty
         public int AuthorId { get; set; }
         [Column("VIEW_COUNT")]
         public int ViewCount { get; set; }
-        [Column("LIKE_COUNT")]
-        public int LikeCount { get; set; }
-        [Column("DISLIKE_COUNT")]
-        public int DislikeCount { get; set; }
         private int _status = 1;
         public int Status // Status of active
         {
@@ -42,18 +42,20 @@ namespace Entities.Novelty
             }
         }
 
+        public virtual ICollection<NoveltyFile> NoveltyFiles { get; set; } = new List<NoveltyFile>();
+        public virtual ICollection<NoveltyLike> NoveltyLike { get; set; } = new List<NoveltyLike>();
+
         public BaseNovelty() { }
 
-        public BaseNovelty(int id, string title, string content, string coverPhotoURL, int authorId, int viewCount, int likeCount, int dislikeCount, int status)
+        public BaseNovelty(int id, string title, string content, int noveltyId, string coverPhotoURL, int authorId, int viewCount, int status)
         {
             Id = id;
             Title = title;
             Content = content;
+            NoveltyId = noveltyId;
             CoverPhotoURL = coverPhotoURL;
             AuthorId = authorId;
             ViewCount = viewCount;
-            LikeCount = likeCount;
-            DislikeCount = dislikeCount;
             Status = status;
         }
     }

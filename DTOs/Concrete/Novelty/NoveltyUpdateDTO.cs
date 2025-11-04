@@ -15,8 +15,8 @@ namespace DTOs.Concrete.Novelty
 
         public NoveltyUpdateDTO() : base() { }
 
-        public NoveltyUpdateDTO(int id, string title, string content, IFormFile coverPhoto, List<IFormFile>? files, int authorId, int status)
-            : base(title, content, coverPhoto, files, authorId)
+        public NoveltyUpdateDTO(int id, string title, string content, IFormFile coverPhoto, List<IFormFile>? files, int noveltyId, int authorId, int status)
+            : base(title, content, coverPhoto, files, noveltyId, authorId)
         {
             Id = id;
             Status = status;

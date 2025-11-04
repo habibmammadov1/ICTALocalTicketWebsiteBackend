@@ -31,17 +31,17 @@ namespace Business.Mapper
                 .ForMember(dest => dest.Status, opt => opt.Ignore());
             CreateMap<TeamMember, TeamMembersUpdateDTO>();
 
-            CreateMap<NoveltyAddDTO, News>()
+            CreateMap<NoveltyAddDTO, BaseNovelty>()
                 .ForMember(dest => dest.Id, opt => opt.Ignore())
                 .ForMember(dest => dest.Status, opt => opt.Ignore());
-            CreateMap<News, NoveltyAddDTO>();
+            CreateMap<BaseNovelty, NoveltyAddDTO>();
 
-            CreateMap<NoveltyUpdateDTO, News>();
-            CreateMap<News, NoveltyUpdateDTO>();
+            CreateMap<NoveltyUpdateDTO, BaseNovelty>();
+            CreateMap<BaseNovelty, NoveltyUpdateDTO>();
 
-            CreateMap<NewsFilesAddDTO, NewsFiles>()
+            CreateMap<NoveltyFilesAddDTO, NoveltyFile>()
                 .ForMember(dest => dest.Id, opt => opt.Ignore());
-            CreateMap<NewsFiles, NewsFilesAddDTO>();
+            CreateMap<NoveltyFile, NoveltyFilesAddDTO>();
         }
     }
 }

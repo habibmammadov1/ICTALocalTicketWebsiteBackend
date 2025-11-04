@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Data.Abstract
 {
-    public interface INoveltyFilesDal : IEntityRepository<NoveltyFile>
+    public interface IBaseNoveltyDal : IEntityRepository<BaseNovelty>
     {
     }
 }

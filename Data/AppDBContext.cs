@@ -22,9 +22,7 @@ namespace Data
         public DbSet<Footer> Footers { get; set; }
         public DbSet<Regulations> Regulations { get; set; }
         public DbSet<TeamMember> TeamMembers { get; set; }
-        public DbSet<News> News { get; set; }
-        public DbSet<Article> Articles { get; set; }
-        public DbSet<Announcement> Accouncements { get; set; }
-        public DbSet<NewsFiles> NewsFiles { get; set; }
+        public DbSet<NoveltyFile> NoveltyFiles { get; set; }
+        public DbSet<NoveltyLike> NoveltiesLikesDislikes { get; set; }
     }
 }
