@@ -27,7 +27,7 @@ namespace Business.Concrete
 
         public async Task<Faq> GetByIdAsync(int id)
         {
-            return await _faqDal.GetByIdAsync(id);
+            return await _faqDal.GetAsync(faq => faq.Id == id);
         }
 
         public async Task AddAsync(Faq faq)
@@ -37,7 +37,8 @@ namespace Business.Concrete
 
         public async Task DeleteAsync(int id)
         {
-            await _faqDal.DeleteAsync(id);
+            Faq faqToDelete = await _faqDal.GetAsync(faq => faq.Id == id);
+            await _faqDal.RemoveAsync(faqToDelete);
         }
 
         public async Task UpdateAsync(Faq faq)

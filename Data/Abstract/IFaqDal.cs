@@ -10,13 +10,9 @@ using System.Threading.Tasks;
 
 namespace Data.Abstract
 {
-    public interface IFaqDal
+    public interface IFaqDal : IEntityRepository<Faq>
     {
-        Task<List<Faq>> GetAllAsync();
-        Task<Faq> GetByIdAsync(int id);
-        Task AddAsync(Faq faq);
-        Task UpdateAsync(Faq faq);
-        Task DeleteAsync(int id);
+        
     }
 }
 
