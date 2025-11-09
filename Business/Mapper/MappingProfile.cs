@@ -42,6 +42,16 @@ namespace Business.Mapper
             CreateMap<NoveltyFilesAddDTO, NoveltyFile>()
                 .ForMember(dest => dest.Id, opt => opt.Ignore());
             CreateMap<NoveltyFile, NoveltyFilesAddDTO>();
+
+            CreateMap<BaseRulesAddDTO, BaseRules>()
+                .ForMember(dest => dest.Id, opt => opt.Ignore());
+            CreateMap<BaseRules, BaseRulesAddDTO>();
+
+            CreateMap<BaseRulesUpdateDTO, BaseRules>();
+            CreateMap<BaseRules, BaseRulesUpdateDTO>();
+
+            CreateMap<BaseRulesFilesPhotosAddDTO, BaseRulesFilesPhotos>()
+                .ForMember(dest => dest.Id, opt => opt.Ignore());
         }
     }
 }

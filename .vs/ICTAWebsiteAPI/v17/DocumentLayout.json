@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\business\\concrete\\faqmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|solutionrelative:business\\concrete\\faqmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AB867FB-AD23-4AB6-BFA5-39EA9035C196}|Core\\Core.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AB867FB-AD23-4AB6-BFA5-39EA9035C196}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{003044CF-98B8-42A4-A67A-1E1A5F0CD56C}|Data\\Data.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\data\\concrete\\effaqdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{003044CF-98B8-42A4-A67A-1E1A5F0CD56C}|Data\\Data.csproj|solutionrelative:data\\concrete\\effaqdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F04A0056-8D02-4E55-9067-F80F34B21DFA}|DTOs\\DTOs.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\dtos\\concrete\\baserulesupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F04A0056-8D02-4E55-9067-F80F34B21DFA}|DTOs\\DTOs.csproj|solutionrelative:dtos\\concrete\\baserulesupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{003044CF-98B8-42A4-A67A-1E1A5F0CD56C}|Data\\Data.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\data\\abstract\\ifaqdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{003044CF-98B8-42A4-A67A-1E1A5F0CD56C}|Data\\Data.csproj|solutionrelative:data\\abstract\\ifaqdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\business\\concrete\\baserulesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|solutionrelative:business\\concrete\\baserulesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3548B28-9A7C-4F8A-A047-272CAC4E3826}|ICTAWebsiteAPI\\ICTAWebsiteAPI.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\ictawebsiteapi\\controllers\\faqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3548B28-9A7C-4F8A-A047-272CAC4E3826}|ICTAWebsiteAPI\\ICTAWebsiteAPI.csproj|solutionrelative:ictawebsiteapi\\controllers\\faqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3548B28-9A7C-4F8A-A047-272CAC4E3826}|ICTAWebsiteAPI\\ICTAWebsiteAPI.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\ictawebsiteapi\\controllers\\baserulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3548B28-9A7C-4F8A-A047-272CAC4E3826}|ICTAWebsiteAPI\\ICTAWebsiteAPI.csproj|solutionrelative:ictawebsiteapi\\controllers\\baserulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend\\business\\abstract\\ibaserulesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968E3350-388E-401D-A201-7193D638AF88}|Business\\Business.csproj|solutionrelative:business\\abstract\\ibaserulesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,59 +29,70 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 298,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IFaqDal.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Data\\Abstract\\IFaqDal.cs",
-              "RelativeDocumentMoniker": "Data\\Abstract\\IFaqDal.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Data\\Abstract\\IFaqDal.cs",
-              "RelativeToolTip": "Data\\Abstract\\IFaqDal.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAMwAwAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T14:39:45.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FaqController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\ICTAWebsiteAPI\\Controllers\\FaqController.cs",
-              "RelativeDocumentMoniker": "ICTAWebsiteAPI\\Controllers\\FaqController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\ICTAWebsiteAPI\\Controllers\\FaqController.cs",
-              "RelativeToolTip": "ICTAWebsiteAPI\\Controllers\\FaqController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAowA4AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T14:39:25.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FaqManager.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Business\\Concrete\\FaqManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\FaqManager.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Business\\Concrete\\FaqManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\FaqManager.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwCgAAAAzAAAA",
+              "Title": "IEntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Core\\DataAccess\\IEntityRepository.cs",
+              "RelativeDocumentMoniker": "Core\\DataAccess\\IEntityRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Core\\DataAccess\\IEntityRepository.cs",
+              "RelativeToolTip": "Core\\DataAccess\\IEntityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T14:39:20.951Z",
+              "WhenOpened": "2025-11-09T20:35:44.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EfFaqDal.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Data\\Concrete\\EfFaqDal.cs",
-              "RelativeDocumentMoniker": "Data\\Concrete\\EfFaqDal.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Data\\Concrete\\EfFaqDal.cs",
-              "RelativeToolTip": "Data\\Concrete\\EfFaqDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
+              "Title": "BaseRulesUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\DTOs\\Concrete\\BaseRulesUpdateDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Concrete\\BaseRulesUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\DTOs\\Concrete\\BaseRulesUpdateDTO.cs",
+              "RelativeToolTip": "DTOs\\Concrete\\BaseRulesUpdateDTO.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAhwB0AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T14:38:32.899Z",
+              "WhenOpened": "2025-11-07T09:07:25.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseRulesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\ICTAWebsiteAPI\\Controllers\\BaseRulesController.cs",
+              "RelativeDocumentMoniker": "ICTAWebsiteAPI\\Controllers\\BaseRulesController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\ICTAWebsiteAPI\\Controllers\\BaseRulesController.cs",
+              "RelativeToolTip": "ICTAWebsiteAPI\\Controllers\\BaseRulesController.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAH8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T08:42:33.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBaseRulesService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Business\\Abstract\\IBaseRulesService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IBaseRulesService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Business\\Abstract\\IBaseRulesService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IBaseRulesService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T08:15:58.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseRulesManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Business\\Concrete\\BaseRulesManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\BaseRulesManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend\\Business\\Concrete\\BaseRulesManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\BaseRulesManager.cs",
+              "ViewState": "AQIAALsAAAAAAAAAAAA9wMoAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T07:49:46.536Z",
               "EditorCaption": ""
             }
           ]

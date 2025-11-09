@@ -29,6 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\uploads\baseRules\" />
     <Folder Include="wwwroot\uploads\news\" />
   </ItemGroup>
 

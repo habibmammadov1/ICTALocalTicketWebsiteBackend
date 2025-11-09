@@ -4,6 +4,7 @@ using Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251106070053_ICTAWebsiteMig1")]
+    partial class ICTAWebsiteMig1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -264,35 +267,6 @@ namespace Data.Migrations
                     b.ToTable("NOVELTIES");
                 });
 
-            modelBuilder.Entity("Entities.Novelty.BaseRulesFilesPhotos", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("ID");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("FileOrPhoto")
-                        .HasColumnType("int")
-                        .HasColumnName("FILE_OR_PHOTO");
-
-                    b.Property<string>("FilePath")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("FILE_PATH");
-
-                    b.Property<int>("RuleItemId")
-                        .HasColumnType("int")
-                        .HasColumnName("RULE_ITEM_ID");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("RuleItemId");
-
-                    b.ToTable("BASE_RULES_FILES_PHOTOS");
-                });
-
             modelBuilder.Entity("Entities.Novelty.NoveltyFile", b =>
                 {
                     b.Property<int>("Id")
@@ -449,17 +423,6 @@ namespace Data.Migrations
                     b.ToTable("TeamMembers");
                 });
 
-            modelBuilder.Entity("Entities.Novelty.BaseRulesFilesPhotos", b =>
-                {
-                    b.HasOne("Entities.BaseRules", "BaseRules")
-                        .WithMany("BaseRulesFilesPhotos")
-                        .HasForeignKey("RuleItemId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("BaseRules");
-                });
-
             modelBuilder.Entity("Entities.Novelty.NoveltyFile", b =>
                 {
                     b.HasOne("Entities.Novelty.BaseNovelty", "NoveltyItem")
@@ -480,11 +443,6 @@ namespace Data.Migrations
                         .IsRequired();
 
                     b.Navigation("NoveltyItem");
-                });
-
-            modelBuilder.Entity("Entities.BaseRules", b =>
-                {
-                    b.Navigation("BaseRulesFilesPhotos");
                 });
 
             modelBuilder.Entity("Entities.Novelty.BaseNovelty", b =>

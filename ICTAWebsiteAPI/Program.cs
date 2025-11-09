@@ -59,6 +59,15 @@ builder.Services.AddScoped<INoveltyFilesDal, EfNoveltyFilesDal>();
 
 builder.Services.AddScoped<INoveltyLikeDal, EfNoveltyLikeDal>();
 
+builder.Services.AddScoped<IBaseRulesService, BaseRulesManager>();
+builder.Services.AddScoped<IBaseRulesDal, EfBaseRulesDal>();
+
+builder.Services.AddScoped<IBaseRulesFilesPhotosService, BaseRulesFilesPhotosManager>();
+builder.Services.AddScoped<IBaseRulesFilesPhotosDal, EfBaseRulesFilesPhotosDal>();
+
+builder.Services.AddScoped<IFaqService, FaqManager>();
+builder.Services.AddScoped<IFaqDal, EfFaqDal>();
+
 builder.Services.AddScoped<SetAuthorFilter>();
 builder.Services.AddScoped<IUserContextService, UserContextService>();
 

@@ -24,5 +24,8 @@ namespace Data
         public DbSet<TeamMember> TeamMembers { get; set; }
         public DbSet<NoveltyFile> NoveltyFiles { get; set; }
         public DbSet<NoveltyLike> NoveltiesLikesDislikes { get; set; }
+        public DbSet<Faq> Faq { get; set; }
+        public DbSet<BaseRules> BaseRules { get; set; }
+        public DbSet<BaseRulesFilesPhotos> BaseRulesFilesPhotos { get; set; }
     }
 }

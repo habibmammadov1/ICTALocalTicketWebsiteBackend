@@ -15,8 +15,11 @@ namespace Entities
         [Key]
         [Column("ID")]
         public int Id { get; set; }
+        [Column("QUESTION")]
         public string Question { get; set; }
+        [Column("ANSWER")]
         public string Answer { get; set; }
+        [Column("IS_ACTIVE")]
         public bool IsActive { get; set; } = true;
 
     }
