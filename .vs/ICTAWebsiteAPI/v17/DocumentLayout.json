@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3548B28-9A7C-4F8A-A047-272CAC4E3826}|ICTAWebsiteAPI\\ICTAWebsiteAPI.csproj|c:\\users\\user\\documents\\github\\ictalocalticketwebsitebackend2\\ictawebsiteapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A3548B28-9A7C-4F8A-A047-272CAC4E3826}|ICTAWebsiteAPI\\ICTAWebsiteAPI.csproj|solutionrelative:ictawebsiteapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend2\\ICTAWebsiteAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ICTAWebsiteAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ICTALocalTicketWebsiteBackend2\\ICTAWebsiteAPI\\appsettings.json",
+              "RelativeToolTip": "ICTAWebsiteAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-10T16:59:11.99Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
